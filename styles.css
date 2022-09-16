@@ -1,0 +1,140 @@
+body {
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Table of Contents */
+.contents {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contents h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.TOC {
+    border: 3px solid red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.TOC h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.TOC > li {
+    display: inline;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.TOC a {
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.TOC li:hover {
+    background-color: #fff;
+    color: #5495ff;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.TOC li:active {
+    font-size: 30px;
+    transition: font-size .1s;
+}
+
+h1, h2, p {
+    cursor: text;
+}
+
+.container {
+    display: block;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid red;
+    margin-bottom: 10px;
+}
+
+::selection {
+    color: white;
+    background: blue;
+}
+
+/* Color Section */
+.color-box {
+    display: inline-flex;
+    width: 32%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+#coolBlue {
+    background-color: #2d5dcc;
+    color: white;
+}
+
+#coolBlue ::selection {
+    background: red;
+}
+
+#pink {
+    background-color: #d957d9;
+}
+
+#mintGreen {
+    background-color: #4fe0b0;
+}
+
+#beige {
+    background-color: #efd9ca;
+}
+
+/* Font Section */
+.font-box {
+    display: inline-flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+#codePro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#nunitos {
+    font-family: 'Nunitos Sans', sans-serif;
+}
+
+#poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontName {
+    text-decoration: underline;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+/* Text Styles Section */
