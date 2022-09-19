@@ -4,35 +4,7 @@ body {
     margin: 0 10%;
 }
 
-/* Button Formatting */
-.nav-button {
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0 auto;
-    margin-bottom: 5%;
-    background-color: #2176FF;
-    color: #fff;
-    padding: 14px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    max-width: 10%;
-}
-
-.nav-button:hover {
-    border: 2px solid red;
-    background-color: #fff;
-    color: #2176FF;
-    transition: color .1s ease-in, background-color .5s ease-in;
-}
-
-.nav-button:active {
-    border: 2px solid red;
-    font-size: 18px;
-    transition: font-size .1s ease-in-out;
-}
+/* Header Formatting */
 
 /*Breadcrumbs Formatting */
 .breadcrumbs {
@@ -196,3 +168,34 @@ p.italic {
 }
 
 /* Text Styles Section */
+
+
+/* Footer Formatting */
+.nav-button {
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background-color: #2176FF;
+    color: #fff;
+    padding: 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    max-width: 10%;
+}
+
+.nav-button:hover {
+    border: 2px solid red;
+    background-color: #fff;
+    color: #2176FF;
+    transition: color .1s ease-in, background-color .5s ease-in;
+}
+
+.nav-button:active {
+    border: 2px solid red;
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
+}
